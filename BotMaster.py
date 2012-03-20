@@ -126,7 +126,7 @@ class BotMaster():
                                     task[2], str(now)))
                     con.commit()
                 else:
-                    sys.stderr.write("Unknown Output from Module %s\n"%task[1])
+                    sys.stderr.write("Unknown Output from Module %s\n"%task[2])
             time.sleep(2)   #这个可以改
                 
         now = time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))
